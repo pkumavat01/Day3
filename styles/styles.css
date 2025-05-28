@@ -255,3 +255,14 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+.custom-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background: currentColor;
+  -webkit-mask: url('../icons/star.svg') no-repeat center;
+  mask: url('../icons/star.svg') no-repeat center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
