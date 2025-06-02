@@ -2,7 +2,7 @@ indices:
   Day3:
     include:
       - /**
-    exclude:[]
+    exclude: []
     target: /query-index.json
     properties:
       title:
